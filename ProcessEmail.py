@@ -35,7 +35,7 @@ def send_mail(files,send_to):
     smtp = smtplib.SMTP(host = 'smtp.gmail.com',port = 587)
     smtp.starttls()
 
-    smtp.login("rajputkamlesh1889@gmail.com", "lmhxrcrtsklwceno")
+    smtp.login("rajputkamlesh1889@gmail.com", "lmhxklwceno")
 
     smtp.send_message(msg,from_addr=from_addr, to_addrs = to_addr)
     
